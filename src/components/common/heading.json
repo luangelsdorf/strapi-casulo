@@ -1,0 +1,18 @@
+{
+  "collectionName": "components_common_headings",
+  "info": {
+    "displayName": "Headline",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "overline": {
+      "type": "string",
+      "required": true
+    },
+    "title": {
+      "type": "text",
+      "required": true
+    }
+  }
+}

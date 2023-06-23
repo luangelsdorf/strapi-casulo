@@ -1,0 +1,31 @@
+{
+  "collectionName": "components_common_image_cards",
+  "info": {
+    "displayName": "ImageCard",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "image": {
+      "type": "media",
+      "multiple": false,
+      "required": true,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "description": {
+      "type": "text",
+      "required": true
+    },
+    "highlight": {
+      "type": "boolean",
+      "default": false,
+      "required": true
+    }
+  }
+}

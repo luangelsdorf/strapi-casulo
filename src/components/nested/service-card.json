@@ -1,0 +1,24 @@
+{
+  "collectionName": "components_nested_service_cards",
+  "info": {
+    "displayName": "ServiceCard",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "description": {
+      "type": "component",
+      "repeatable": false,
+      "component": "common.title-block",
+      "required": true
+    },
+    "image": {
+      "type": "media",
+      "multiple": false,
+      "required": true,
+      "allowedTypes": [
+        "images"
+      ]
+    }
+  }
+}
