@@ -9,19 +9,19 @@
     "training": {
       "type": "component",
       "repeatable": false,
-      "component": "common.image-card",
+      "component": "nested.service-card",
       "required": true
     },
     "consultancy": {
       "type": "component",
       "repeatable": false,
-      "component": "common.image-card",
+      "component": "nested.service-card",
       "required": true
     },
     "dogHotel": {
       "type": "component",
       "repeatable": false,
-      "component": "common.image-card",
+      "component": "nested.service-card",
       "required": true
     }
   }

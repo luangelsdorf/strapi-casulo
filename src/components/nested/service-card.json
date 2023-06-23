@@ -6,10 +6,12 @@
   },
   "options": {},
   "attributes": {
+    "title": {
+      "type": "string",
+      "required": true
+    },
     "description": {
-      "type": "component",
-      "repeatable": false,
-      "component": "common.title-block",
+      "type": "text",
       "required": true
     },
     "image": {
