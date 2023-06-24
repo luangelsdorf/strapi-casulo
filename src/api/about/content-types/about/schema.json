@@ -1,0 +1,51 @@
+{
+  "kind": "singleType",
+  "collectionName": "abouts",
+  "info": {
+    "singularName": "about",
+    "pluralName": "abouts",
+    "displayName": "Sobre Nós",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": false
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "about": {
+      "type": "component",
+      "repeatable": false,
+      "component": "about.about-us",
+      "required": true
+    },
+    "purpose": {
+      "type": "component",
+      "repeatable": false,
+      "component": "about.purpose",
+      "required": true
+    },
+    "benefits": {
+      "type": "component",
+      "repeatable": false,
+      "component": "about.benefits",
+      "required": true
+    },
+    "testimonials": {
+      "type": "component",
+      "repeatable": false,
+      "component": "about.testimonials",
+      "required": true
+    },
+    "cta": {
+      "type": "component",
+      "repeatable": false,
+      "component": "home.call-to-action"
+    },
+    "banner": {
+      "type": "component",
+      "repeatable": false,
+      "component": "about.banner",
+      "required": true
+    }
+  }
+}

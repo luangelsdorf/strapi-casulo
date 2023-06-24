@@ -1,0 +1,27 @@
+{
+  "kind": "singleType",
+  "collectionName": "blogs",
+  "info": {
+    "singularName": "blog",
+    "pluralName": "blogs",
+    "displayName": "Blog"
+  },
+  "options": {
+    "draftAndPublish": false
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "banner": {
+      "type": "component",
+      "repeatable": false,
+      "component": "home.banner",
+      "required": true
+    },
+    "socialMedia": {
+      "type": "component",
+      "repeatable": false,
+      "component": "home.social-media",
+      "required": true
+    }
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "collectionName": "components_about_benefits",
+  "info": {
+    "displayName": "Benefits",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "items": {
+      "type": "component",
+      "repeatable": true,
+      "component": "common.icon-card",
+      "required": true,
+      "min": 4,
+      "max": 4
+    }
+  }
+}

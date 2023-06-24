@@ -1,0 +1,21 @@
+{
+  "collectionName": "components_about_purposes",
+  "info": {
+    "displayName": "Purpose"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "items": {
+      "type": "component",
+      "repeatable": true,
+      "component": "common.title-block",
+      "min": 3,
+      "max": 3,
+      "required": true
+    }
+  }
+}

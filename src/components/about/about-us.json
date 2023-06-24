@@ -1,0 +1,24 @@
+{
+  "collectionName": "components_about_aboutuses",
+  "info": {
+    "displayName": "AboutUs",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "image": {
+      "type": "media",
+      "multiple": false,
+      "required": true,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "content": {
+      "type": "component",
+      "repeatable": false,
+      "component": "common.title-block",
+      "required": true
+    }
+  }
+}

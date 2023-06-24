@@ -1,0 +1,15 @@
+{
+  "collectionName": "components_about_testimonials",
+  "info": {
+    "displayName": "Testimonials"
+  },
+  "options": {},
+  "attributes": {
+    "headline": {
+      "type": "component",
+      "repeatable": false,
+      "component": "common.heading",
+      "required": true
+    }
+  }
+}
