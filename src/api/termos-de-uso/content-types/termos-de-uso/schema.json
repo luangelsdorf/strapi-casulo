@@ -1,0 +1,27 @@
+{
+  "kind": "singleType",
+  "collectionName": "termos_de_usos",
+  "info": {
+    "singularName": "termos-de-uso",
+    "pluralName": "termos-de-usos",
+    "displayName": "Termos de Uso"
+  },
+  "options": {
+    "draftAndPublish": false
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "content": {
+      "type": "customField",
+      "options": {
+        "output": "HTML",
+        "preset": "light"
+      },
+      "customField": "plugin::ckeditor.CKEditor"
+    }
+  }
+}

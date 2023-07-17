@@ -34,7 +34,7 @@
     },
     "temperament": {
       "type": "string",
-      "required": true
+      "required": false
     },
     "sex": {
       "type": "enumeration",
@@ -46,12 +46,12 @@
     },
     "challenge": {
       "type": "text",
-      "required": true
+      "required": false
     },
     "gallery": {
       "type": "media",
       "multiple": true,
-      "required": true,
+      "required": false,
       "allowedTypes": [
         "images",
         "videos"
@@ -63,7 +63,7 @@
         "output": "HTML",
         "preset": "light"
       },
-      "required": true,
+      "required": false,
       "customField": "plugin::ckeditor.CKEditor"
     },
     "name": {
@@ -87,6 +87,11 @@
     },
     "highlight": {
       "type": "boolean"
+    },
+    "slug": {
+      "type": "uid",
+      "targetField": "name",
+      "required": true
     }
   }
 }
