@@ -53,6 +53,10 @@
       "repeatable": false,
       "component": "home.testimonials",
       "required": true
+    },
+    "pagelink": {
+      "type": "string",
+      "private": true
     }
   }
 }

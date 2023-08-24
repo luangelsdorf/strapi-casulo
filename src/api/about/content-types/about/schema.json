@@ -46,6 +46,9 @@
       "repeatable": false,
       "component": "about.banner",
       "required": true
+    },
+    "pagelink": {
+      "type": "string"
     }
   }
 }

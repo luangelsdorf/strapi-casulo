@@ -4,7 +4,8 @@
   "info": {
     "singularName": "blog",
     "pluralName": "blogs",
-    "displayName": "Blog"
+    "displayName": "Blog",
+    "description": ""
   },
   "options": {
     "draftAndPublish": false
@@ -22,6 +23,10 @@
       "repeatable": false,
       "component": "home.social-media",
       "required": true
+    },
+    "pagelink": {
+      "type": "string",
+      "private": true
     }
   }
 }
