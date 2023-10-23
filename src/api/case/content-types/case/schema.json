@@ -20,42 +20,9 @@
         "images"
       ]
     },
-    "description": {
-      "type": "text",
-      "required": true
-    },
     "breed": {
       "type": "string",
       "required": true
-    },
-    "age": {
-      "type": "integer",
-      "required": true
-    },
-    "temperament": {
-      "type": "string",
-      "required": false
-    },
-    "sex": {
-      "type": "enumeration",
-      "enum": [
-        "Macho",
-        "Fêmea"
-      ],
-      "required": true
-    },
-    "challenge": {
-      "type": "text",
-      "required": false
-    },
-    "gallery": {
-      "type": "media",
-      "multiple": true,
-      "required": false,
-      "allowedTypes": [
-        "images",
-        "videos"
-      ]
     },
     "testimonial": {
       "type": "customField",
@@ -68,17 +35,6 @@
     },
     "name": {
       "type": "string",
-      "required": true
-    },
-    "size": {
-      "type": "enumeration",
-      "enum": [
-        "Filhote",
-        "P",
-        "M",
-        "G",
-        "GG"
-      ],
       "required": true
     },
     "services": {
