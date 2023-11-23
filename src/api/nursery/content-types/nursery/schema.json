@@ -1,0 +1,18 @@
+{
+  "kind": "singleType",
+  "collectionName": "nurseries",
+  "info": {
+    "singularName": "nursery",
+    "pluralName": "nurseries",
+    "displayName": "Serviços | Creche Educativa"
+  },
+  "options": {
+    "draftAndPublish": false
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "text": {
+      "type": "string"
+    }
+  }
+}
