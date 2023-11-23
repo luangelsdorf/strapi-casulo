@@ -1,0 +1,33 @@
+{
+  "kind": "singleType",
+  "collectionName": "consultancies",
+  "info": {
+    "singularName": "consultancy",
+    "pluralName": "consultancies",
+    "displayName": "Serviços | Consultoria"
+  },
+  "options": {
+    "draftAndPublish": false
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "hero": {
+      "type": "component",
+      "repeatable": false,
+      "component": "consultancy.hero",
+      "required": true
+    },
+    "benefits": {
+      "type": "component",
+      "repeatable": false,
+      "component": "consultancy.benefits",
+      "required": true
+    },
+    "details": {
+      "type": "component",
+      "repeatable": false,
+      "component": "consultancy.details",
+      "required": true
+    }
+  }
+}
