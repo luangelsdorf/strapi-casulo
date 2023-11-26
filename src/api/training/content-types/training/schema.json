@@ -4,15 +4,42 @@
   "info": {
     "singularName": "training",
     "pluralName": "trainings",
-    "displayName": "Serviços | Adestramento"
+    "displayName": "Serviços | Adestramento",
+    "description": ""
   },
   "options": {
     "draftAndPublish": false
   },
   "pluginOptions": {},
   "attributes": {
-    "text": {
-      "type": "string"
+    "hero": {
+      "type": "component",
+      "repeatable": false,
+      "component": "consultancy.hero",
+      "required": true
+    },
+    "benefits": {
+      "type": "component",
+      "repeatable": false,
+      "component": "consultancy.benefits",
+      "required": true
+    },
+    "details": {
+      "type": "component",
+      "repeatable": false,
+      "component": "consultancy.details",
+      "required": true
+    },
+    "summary": {
+      "type": "text",
+      "required": true,
+      "maxLength": 50
+    },
+    "button": {
+      "type": "component",
+      "repeatable": false,
+      "component": "common.link",
+      "required": true
     }
   }
 }

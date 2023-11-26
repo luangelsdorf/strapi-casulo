@@ -4,7 +4,8 @@
   "info": {
     "singularName": "consultancy",
     "pluralName": "consultancies",
-    "displayName": "Serviços | Consultoria"
+    "displayName": "Serviços | Consultoria",
+    "description": ""
   },
   "options": {
     "draftAndPublish": false
@@ -27,6 +28,17 @@
       "type": "component",
       "repeatable": false,
       "component": "consultancy.details",
+      "required": true
+    },
+    "summary": {
+      "type": "text",
+      "required": true,
+      "maxLength": 50
+    },
+    "button": {
+      "type": "component",
+      "repeatable": false,
+      "component": "common.link",
       "required": true
     }
   }
