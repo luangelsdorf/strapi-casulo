@@ -33,7 +33,7 @@
     "summary": {
       "type": "text",
       "required": true,
-      "maxLength": 50
+      "maxLength": 60
     },
     "button": {
       "type": "component",
@@ -45,6 +45,12 @@
       "type": "component",
       "repeatable": false,
       "component": "common.icon-card",
+      "required": true
+    },
+    "about": {
+      "type": "component",
+      "repeatable": false,
+      "component": "about.about-us",
       "required": true
     }
   }

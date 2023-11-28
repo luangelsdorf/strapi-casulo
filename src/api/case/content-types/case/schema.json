@@ -48,6 +48,25 @@
       "type": "uid",
       "targetField": "name",
       "required": true
+    },
+    "size": {
+      "type": "enumeration",
+      "enum": [
+        "Filhote",
+        "P",
+        "M",
+        "G",
+        "GG"
+      ],
+      "required": true
+    },
+    "sex": {
+      "type": "enumeration",
+      "enum": [
+        "Macho",
+        "Fêmea"
+      ],
+      "required": true
     }
   }
 }

@@ -1,7 +1,8 @@
 {
   "collectionName": "components_consultancy_details",
   "info": {
-    "displayName": "details"
+    "displayName": "Details",
+    "description": ""
   },
   "options": {},
   "attributes": {

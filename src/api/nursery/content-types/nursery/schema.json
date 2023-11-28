@@ -33,7 +33,7 @@
     "summary": {
       "type": "text",
       "required": true,
-      "maxLength": 50
+      "maxLength": 60
     },
     "button": {
       "type": "component",

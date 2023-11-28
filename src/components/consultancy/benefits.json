@@ -1,7 +1,8 @@
 {
   "collectionName": "components_consultancy_benefits",
   "info": {
-    "displayName": "Benefits"
+    "displayName": "Benefits",
+    "description": ""
   },
   "options": {},
   "attributes": {
@@ -15,7 +16,7 @@
       "component": "common.title-block",
       "required": true,
       "max": 8,
-      "min": 8
+      "min": 5
     }
   }
 }

@@ -1,7 +1,8 @@
 {
   "collectionName": "components_common_title_blocks",
   "info": {
-    "displayName": "TitleBlock"
+    "displayName": "TitleBlock",
+    "description": ""
   },
   "options": {},
   "attributes": {
@@ -11,7 +12,7 @@
     },
     "text": {
       "type": "text",
-      "required": true
+      "required": false
     }
   }
 }
