@@ -40,6 +40,32 @@
       "repeatable": false,
       "component": "common.link",
       "required": true
+    },
+    "trainingTypes": {
+      "displayName": "TrainingTypes",
+      "type": "component",
+      "repeatable": false,
+      "component": "training.training-types",
+      "required": true
+    },
+    "trainingIntro": {
+      "type": "component",
+      "repeatable": false,
+      "component": "training.training-intro"
+    },
+    "cta": {
+      "type": "component",
+      "repeatable": false,
+      "component": "home.call-to-action",
+      "required": true
+    },
+    "gallery": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": true,
+      "required": false
     }
   }
 }

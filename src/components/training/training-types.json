@@ -1,7 +1,7 @@
 {
-  "collectionName": "components_consultancy_benefits",
+  "collectionName": "components_training_training_types",
   "info": {
-    "displayName": "Benefits",
+    "displayName": "TrainingTypes",
     "description": ""
   },
   "options": {},
@@ -9,20 +9,14 @@
     "headline": {
       "type": "component",
       "repeatable": false,
-      "component": "common.title-block",
+      "component": "common.heading",
       "required": true
     },
-    "items": {
+    "list": {
       "type": "component",
       "repeatable": true,
       "component": "common.title-block",
-      "required": true,
-      "max": 8,
-      "min": 5
-    },
-    "additionalText": {
-      "type": "text",
-      "maxLength": 160
+      "min": 4
     }
   }
 }

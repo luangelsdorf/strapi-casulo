@@ -40,6 +40,13 @@
       "repeatable": false,
       "component": "common.link",
       "required": true
+    },
+    "gallery": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": true
     }
   }
 }

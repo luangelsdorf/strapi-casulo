@@ -46,6 +46,13 @@
       "repeatable": false,
       "component": "common.icon-card",
       "required": true
+    },
+    "gallery": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": true
     }
   }
 }

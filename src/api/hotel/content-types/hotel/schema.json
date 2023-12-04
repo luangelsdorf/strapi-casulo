@@ -47,11 +47,24 @@
       "component": "common.icon-card",
       "required": true
     },
-    "about": {
+    "aboutUs": {
       "type": "component",
       "repeatable": false,
-      "component": "about.about-us",
+      "component": "training.training-intro",
       "required": true
+    },
+    "cta": {
+      "type": "component",
+      "repeatable": false,
+      "component": "home.call-to-action",
+      "required": true
+    },
+    "gallery": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": true
     }
   }
 }
