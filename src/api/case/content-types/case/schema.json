@@ -12,14 +12,6 @@
   },
   "pluginOptions": {},
   "attributes": {
-    "photo": {
-      "type": "media",
-      "multiple": false,
-      "required": true,
-      "allowedTypes": [
-        "images"
-      ]
-    },
     "breed": {
       "type": "string",
       "required": true
@@ -67,6 +59,14 @@
         "Fêmea"
       ],
       "required": true
+    },
+    "photos": {
+      "type": "component",
+      "repeatable": true,
+      "component": "common.photos",
+      "required": true,
+      "max": 4,
+      "min": 1
     }
   }
 }
