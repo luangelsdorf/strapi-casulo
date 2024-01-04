@@ -42,11 +42,10 @@
       "required": true
     },
     "gallery": {
-      "allowedTypes": [
-        "images"
-      ],
-      "type": "media",
-      "multiple": true
+      "type": "component",
+      "repeatable": false,
+      "component": "common.service-gallery",
+      "required": true
     }
   }
 }

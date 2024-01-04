@@ -1,0 +1,24 @@
+{
+  "collectionName": "components_common_service_galleries",
+  "info": {
+    "displayName": "ServiceGallery",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "headline": {
+      "type": "component",
+      "repeatable": false,
+      "component": "common.heading",
+      "required": true
+    },
+    "photos": {
+      "type": "media",
+      "multiple": true,
+      "required": true,
+      "allowedTypes": [
+        "images"
+      ]
+    }
+  }
+}

@@ -49,6 +49,18 @@
     },
     "pagelink": {
       "type": "string"
+    },
+    "team": {
+      "type": "component",
+      "repeatable": false,
+      "component": "about.team",
+      "required": true
+    },
+    "area": {
+      "type": "component",
+      "repeatable": false,
+      "component": "common.occupation-area",
+      "required": true
     }
   }
 }

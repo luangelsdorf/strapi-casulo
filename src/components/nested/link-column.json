@@ -1,0 +1,17 @@
+{
+  "collectionName": "components_nested_link_columns",
+  "info": {
+    "displayName": "LinkColumn"
+  },
+  "options": {},
+  "attributes": {
+    "column": {
+      "type": "component",
+      "repeatable": true,
+      "component": "common.link",
+      "required": true,
+      "max": 4,
+      "min": 3
+    }
+  }
+}

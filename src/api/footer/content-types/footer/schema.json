@@ -4,7 +4,8 @@
   "info": {
     "singularName": "footer",
     "pluralName": "footers",
-    "displayName": "Rodapé"
+    "displayName": "Rodapé",
+    "description": ""
   },
   "options": {
     "draftAndPublish": false
@@ -15,6 +16,12 @@
       "type": "component",
       "repeatable": false,
       "component": "common.title-block",
+      "required": true
+    },
+    "firstColumn": {
+      "type": "component",
+      "repeatable": true,
+      "component": "nested.link-column",
       "required": true
     }
   }

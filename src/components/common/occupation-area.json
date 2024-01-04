@@ -1,0 +1,19 @@
+{
+  "collectionName": "components_common_occupation_areas",
+  "info": {
+    "displayName": "OccupationArea"
+  },
+  "options": {},
+  "attributes": {
+    "headline": {
+      "type": "component",
+      "repeatable": false,
+      "component": "common.heading",
+      "required": true
+    },
+    "text": {
+      "type": "text",
+      "required": true
+    }
+  }
+}

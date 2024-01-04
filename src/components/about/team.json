@@ -1,0 +1,24 @@
+{
+  "collectionName": "components_about_teams",
+  "info": {
+    "displayName": "Team",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "headline": {
+      "type": "component",
+      "repeatable": false,
+      "component": "common.heading",
+      "required": true
+    },
+    "members": {
+      "type": "component",
+      "repeatable": true,
+      "component": "common.icon-card-long",
+      "max": 4,
+      "min": 2,
+      "required": true
+    }
+  }
+}
