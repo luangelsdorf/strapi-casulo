@@ -4,7 +4,8 @@
   "info": {
     "singularName": "info",
     "pluralName": "infos",
-    "displayName": "Informações de Contato"
+    "displayName": "Informações de Contato",
+    "description": ""
   },
   "options": {
     "draftAndPublish": false
@@ -17,6 +18,12 @@
     },
     "instagram": {
       "type": "string",
+      "required": true
+    },
+    "area": {
+      "type": "component",
+      "repeatable": false,
+      "component": "common.occupation-area",
       "required": true
     }
   }
