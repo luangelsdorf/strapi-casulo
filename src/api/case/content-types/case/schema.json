@@ -16,15 +16,6 @@
       "type": "string",
       "required": true
     },
-    "testimonial": {
-      "type": "customField",
-      "options": {
-        "output": "HTML",
-        "preset": "light"
-      },
-      "required": false,
-      "customField": "plugin::ckeditor.CKEditor"
-    },
     "name": {
       "type": "string",
       "required": true
@@ -67,6 +58,14 @@
       "required": true,
       "max": 4,
       "min": 1
+    },
+    "tutor": {
+      "type": "string",
+      "required": false
+    },
+    "quote": {
+      "type": "text",
+      "required": true
     }
   }
 }
