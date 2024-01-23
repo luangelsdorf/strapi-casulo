@@ -25,6 +25,10 @@
       "repeatable": false,
       "component": "common.occupation-area",
       "required": true
+    },
+    "extraInstagram": {
+      "type": "string",
+      "required": false
     }
   }
 }
