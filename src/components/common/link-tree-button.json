@@ -1,0 +1,24 @@
+{
+  "collectionName": "components_common_link_tree_buttons",
+  "info": {
+    "displayName": "LinkTreeButton"
+  },
+  "options": {},
+  "attributes": {
+    "icon": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false
+    },
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "url": {
+      "type": "string",
+      "required": true
+    }
+  }
+}
